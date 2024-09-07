@@ -7,7 +7,7 @@
         "category": "Trámites",
         "author": "Juan Alvaro Martinez",
         "blog_code": "post1.md",
-        "img": "Theme01/img/post1.jpg"
+        "img": "theme01/img/post1.jpg"
       },
       {
         "title": "Número de Identidad de Extranjero (NIE)",
@@ -16,7 +16,7 @@
         "category": "Trámites",
         "author": "Juan Alvaro Martinez",
         "blog_code": "post2.md",
-        "img": "Theme01/img/post2.jpg"
+        "img": "theme01/img/post2.jpg"
       }
     ]
   }
