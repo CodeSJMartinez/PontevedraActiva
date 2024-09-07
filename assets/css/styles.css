@@ -64,21 +64,34 @@ main {
 
 /* Tarjetas individuales */
 .post-card {
-    flex: 1 1 30%; /* Tamaño flexible en pantallas grandes */
+    position: relative;
+    flex: 1 1 30%;
     margin: 20px 0;
     background-color: #ffffff;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
 }
 
-.post-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 15px;
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
+
+/* Imágenes con lazy-loading */
+.post-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Índice con desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
+
 
 .post-card h3 {
     color: #1a1a40;
@@ -116,12 +129,7 @@ footer {
     font-size: 1rem;
 }
 
-/* Pantallas grandes (PC) */
-@media (min-width: 1025px) {
-    .post-card {
-        flex: 1 1 calc(33.333% - 40px); /* 3 tarjetas por fila */
-    }
-}
+
 
 /* Pantallas medianas (tablets, entre 768px y 1024px) */
 @media (max-width: 1024px) {
@@ -182,3 +190,45 @@ footer {
         font-size: 0.8rem; /* Aún más pequeño para móviles */
     }
 }
+
+/* Pantallas grandes (PC y portátiles anchos) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 1rem; /* Tamaño de fuente más grande */
+    }
+
+    header h1 {
+        font-size: 2.5rem; /* Título más grande */
+        letter-spacing: 0.05em; /* Espaciado adicional para profesionalismo */
+    }
+
+    nav ul li a {
+        font-size: 1.2rem; /* Ajustar tamaño de los links de navegación */
+    }
+
+    main {
+        max-width: 80%; /* Aumentar el ancho del contenido */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ajustar las tarjetas para 3 columnas */
+    .post-card {
+        flex: 1 1 calc(33.333% - 40px); /* 3 tarjetas por fila */
+        margin: 20px; /* Aumentar márgenes para espaciar más las tarjetas */
+        transition: all 0.3s ease; /* Transición más suave para hover */
+    }
+
+    .post-card:hover {
+        transform: scale(1.05); /* Aumento ligero al hacer hover */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Sombra más profunda al hacer hover */
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 20px 0; /* Aumentar el padding para darle más espacio */
+    }
+}
+
+
+

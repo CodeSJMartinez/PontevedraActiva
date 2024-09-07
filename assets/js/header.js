@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!noHeader) {
         const headerTemplate = `
             <header>
-                <h1>Mi Sitio Web</h1>
+                <h1>Pontevedra Activa</h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="categoria1.html">Categoría 1</a></li>
+                        <li><a href="cat01.html">Trámites</a></li>
                         <li><a href="categoria2.html">Categoría 2</a></li>
                         <li><a href="categoria3.html">Categoría 3</a></li>
                         <li><a href="categoria4.html">Categoría 4</a></li>

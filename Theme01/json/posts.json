@@ -1,0 +1,23 @@
+{
+    "posts": [
+      {
+        "title": "Tarjeta DNI",
+        "intro": "Pasos para tramitar el DNI: Documento Nacional de Identidad, conocido coloquialmente como carné de identidad) para personas con nacionalidad Española.",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post1.md",
+        "img": "Theme01/img/post1.jpg"
+      },
+      {
+        "title": "Número de Identidad de Extranjero (NIE)",
+        "intro": "Descubre las mejores técnicas para optimizar imágenes y mejorar el rendimiento web.",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post2.md",
+        "img": "Theme01/img/post2.jpg"
+      }
+    ]
+  }
+  

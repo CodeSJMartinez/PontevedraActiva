@@ -1,0 +1,77 @@
+{
+    "posts": [
+      {
+        "title": "Diseño de Tarjetas con Flexbox",
+        "intro": "Aprende cómo usar Flexbox para agrupar tarjetas que se adapten a diferentes tamaños de pantalla.",
+        "date": "2024-09-01",
+        "category": "Desarrollo Web, CSS",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post1.md",
+        "img": "blog/img/post1.jpg"
+      },
+      {
+        "title": "Optimización de Imágenes en Web",
+        "intro": "Descubre las mejores técnicas para optimizar imágenes y mejorar el rendimiento web.",
+        "date": "2024-08-25",
+        "category": "Desarrollo Web, SEO",
+        "author": "Maria Gomez",
+        "blog_code": "post2.md",
+        "img": "blog/img/post2.jpg"
+      },
+      {
+        "title": "Introducción a JavaScript Moderno",
+        "intro": "Un vistazo a las nuevas características de JavaScript ES6+ y cómo utilizarlas en proyectos web.",
+        "date": "2024-07-30",
+        "category": "Desarrollo Web, JavaScript",
+        "author": "Carlos Diaz",
+        "blog_code": "post3.md",
+        "img": "blog/img/post3.jpg"
+      },
+      {
+        "title": "Cómo Usar CSS Grid para Layouts Complejos",
+        "intro": "CSS Grid permite crear estructuras de diseño más complejas y adaptables en menos líneas de código.",
+        "date": "2024-06-15",
+        "category": "Desarrollo Web, CSS",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post4.md",
+        "img": "blog/img/post4.jpg"
+      },
+      {
+        "title": "Buenas Prácticas en Git y GitHub",
+        "intro": "Aprende a gestionar tus proyectos con Git y GitHub utilizando buenas prácticas y flujos de trabajo efectivos.",
+        "date": "2024-05-10",
+        "category": "Desarrollo Web, Control de Versiones",
+        "author": "Pedro Fernández",
+        "blog_code": "post5.md",
+        "img": "blog/img/post5.jpg"
+      },
+      {
+        "title": "Mejorando la Accesibilidad en la Web",
+        "intro": "Guía para mejorar la accesibilidad de sitios web y hacerlos inclusivos para todos los usuarios.",
+        "date": "2024-04-20",
+        "category": "Desarrollo Web, Accesibilidad",
+        "author": "Ana Ruiz",
+        "blog_code": "blog/post6.md",
+        "img": "blog/img/post6.jpg"
+      },
+      {
+        "title": "Usando APIs Externas en JavaScript",
+        "intro": "Cómo consumir APIs externas en tus proyectos JavaScript para agregar funcionalidades adicionales.",
+        "date": "2024-03-28",
+        "category": "Desarrollo Web, JavaScript",
+        "author": "Carlos Diaz",
+        "blog_code": "post7.md",
+        "img": "blog/img/post7.jpg"
+      },
+      {
+        "title": "Desarrollo Web Responsivo con Media Queries",
+        "intro": "Aprende a usar media queries para diseñar sitios web que se adapten a cualquier dispositivo.",
+        "date": "2024-02-15",
+        "category": "Desarrollo Web, CSS",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post8.md",
+        "img": "blog/img/post8.jpg"
+      }
+    ]
+  }
+  

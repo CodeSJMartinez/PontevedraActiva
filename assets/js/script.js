@@ -10,21 +10,25 @@ document.addEventListener("DOMContentLoaded", async function () {
         console.log('Datos JSON cargados:', jsonData);
     } catch (error) {
         console.error('Error al cargar el archivo JSON:', error);
+        blogContainer.innerHTML = '<p>Error al cargar el contenido del blog.</p>';
+        return;
     }
 
     function createPostCard(postJson) {
-        const postElement = document.createElement('div');
+        const postElement = document.createElement('article');
         postElement.className = 'post-card';
-        postElement.dataset.blogCode = postJson.blog_code; // Guardar el código del blog para usarlo más tarde
+        postElement.setAttribute('aria-labelledby', postJson.blog_code); // Mejora accesibilidad
+        postElement.dataset.blogCode = postJson.blog_code;
 
-        // Crear el elemento de imagen
+        // Imagen con manejo de errores
         const imgElement = document.createElement('img');
-        imgElement.src = `blog/img/${postJson.blog_code.split('/').pop().replace('.md', '.jpg')}`;
-        imgElement.onerror = () => {
-            imgElement.src = 'blog/img/default.jpg'; // Imagen genérica si falla la carga
-        };
+        const imageSrc = postJson.img ? `blog/img/${postJson.img}` : 'blog/img/default.jpg';
+        imgElement.src = imageSrc;
+        imgElement.alt = postJson.title ? postJson.title : 'Imagen genérica';
+        imgElement.onerror = () => { imgElement.src = 'blog/img/default.jpg'; };
 
         const postTitle = document.createElement('h3');
+        postTitle.id = postJson.blog_code;  // Asociado para accesibilidad
         postTitle.textContent = postJson.title || 'Título no disponible';
 
         const postExcerpt = document.createElement('p');
@@ -33,13 +37,13 @@ document.addEventListener("DOMContentLoaded", async function () {
         const postLink = document.createElement('a');
         postLink.textContent = "Ver Más >";
         postLink.href = `post.html?file=blog/${postJson.blog_code}`;
+        postLink.setAttribute('aria-label', `Leer más sobre ${postJson.title || 'este artículo'}`);
 
-        // Crear el div para mostrar el blog-code
         const blogCodeElement = document.createElement('div');
         blogCodeElement.className = 'blog-code';
         blogCodeElement.textContent = `Ref: ${postJson.blog_code}`;
-        blogCodeElement.style.fontSize = '0.8rem'; // Texto pequeño
-        blogCodeElement.style.color = '#666'; // Color gris claro
+        blogCodeElement.style.fontSize = '0.8rem';
+        blogCodeElement.style.color = '#666';
 
         postElement.appendChild(imgElement);
         postElement.appendChild(postTitle);
@@ -51,10 +55,14 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Crear tarjetas para cada post en el JSON
     jsonData?.posts.forEach(post => {
-        createPostCard(post);
+        if (post.blog_code && post.title) {
+            createPostCard(post);
+        } else {
+            console.warn('Post con datos faltantes:', post);
+        }
     });
 
-    // Agregar eventos para redirigir al hacer clic en la tarjeta
+    // Redirección al hacer clic en una tarjeta completa
     blogContainer.addEventListener('click', function (event) {
         const card = event.target.closest('.post-card');
         if (card) {
