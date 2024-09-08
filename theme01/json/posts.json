@@ -1,13 +1,22 @@
 {
     "posts": [
       {
+        "title": "Empadronamiento",
+        "intro": "",
+        "date": "2024-09-08",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post1.md",
+        "img": "theme01/img/post1.jpg"
+      },
+      {
         "title": "Tarjeta DNI",
         "intro": "Pasos para tramitar el DNI: Documento Nacional de Identidad, conocido coloquialmente como carné de identidad) para personas con nacionalidad Española.",
         "date": "2024-09-07",
         "category": "Trámites",
         "author": "Juan Alvaro Martinez",
-        "blog_code": "post1.md",
-        "img": "theme01/img/post1.jpg"
+        "blog_code": "post2.md",
+        "img": "theme01/img/post2.jpg"
       },
       {
         "title": "Número de Identidad de Extranjero (NIE)",
@@ -15,9 +24,64 @@
         "date": "2024-09-07",
         "category": "Trámites",
         "author": "Juan Alvaro Martinez",
-        "blog_code": "post2.md",
-        "img": "theme01/img/post2.jpg"
+        "blog_code": "post3.md",
+        "img": "theme01/img/post3.jpg"
+      },
+      {
+        "title": "Tarjeta de Identificación de Extranjero (TIE)",
+        "intro": "Trámite para acreditar la situación legal del extranjero en España.",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post4.md",
+        "img": "theme01/img/post4.jpg"
+      },
+      {
+        "title": "Seguridad Social",
+        "intro": "Trámite para acreditar la situación legal del extranjero en España.",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post4.md",
+        "img": "theme01/img/post4.jpg"
+      },
+      {
+        "title": "SEPE (Servicio Público de Empleo Estatal)",
+        "intro": "",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post5.md",
+        "img": "theme01/img/post5.jpg"
+      },
+      {
+        "title": "Homologaciones de Títulos",
+        "intro": "",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post6.md",
+        "img": "theme01/img/post6.jpg"
+      },
+      {
+        "title": "Certificados Oficiales",
+        "intro": "",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post7.md",
+        "img": "theme01/img/post7.jpg"
+      },
+      {
+        "title": "Certificados de Profesionalidad",
+        "intro": "",
+        "date": "2024-09-07",
+        "category": "Trámites",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post8.md",
+        "img": "theme01/img/post8.jpg"
       }
+
     ]
   }
   
