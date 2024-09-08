@@ -1,0 +1,14 @@
+{
+    "themes": [
+        { "id": 1, "name": "Documentación y Trámites" },
+        { "id": 2, "name": "Servicios Financieros y Bancarios" },
+        { "id": 3, "name": "Transporte y Movilidad" },
+        { "id": 4, "name": "Empleo y Oportunidades Laborales" },
+        { "id": 5, "name": "Ayudas Sociales y Comunitarias" },
+        { "id": 6, "name": "Educación y Formación" },
+        { "id": 7, "name": "Vivienda y Alojamiento" },
+        { "id": 8, "name": "Licencias y Vehículos" },
+        { "id": 9, "name": "Ocio y Recreación" },
+        { "id": 10, "name": "Salud y Servicios Médicos" }
+    ]
+}
