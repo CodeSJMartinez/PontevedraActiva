@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="cat01.html">Trámites</a></li>
-                        <li><a href="categoria2.html">Categoría 2</a></li>
-                        <li><a href="categoria3.html">Categoría 3</a></li>
-                        <li><a href="categoria4.html">Categoría 4</a></li>
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </nav>
