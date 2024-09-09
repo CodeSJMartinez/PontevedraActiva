@@ -105,39 +105,49 @@ main {
 
 /* Tarjetas individuales */
 .post-card {
-    position: relative;
-    flex: 1 1 30%;
-    margin: 20px 0;
-    background-color: #ffffff;
-    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin: 20px;
 }
-
 .post-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
 }
 
-/* Imágenes con lazy-loading */
 .post-card img {
     max-width: 100%;
     border-radius: 8px;
     object-fit: cover;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.post-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.post-card a:hover {
+    background-color: #45a049;
 }
 
 /* Índice con desplazamiento suave */
 html {
     scroll-behavior: smooth;
-}
-
-
-.post-card h3 {
-    color: #1a1a40;
-    font-size: 1.6rem;
-    margin-top: 0;
 }
 
 .post-card p {
@@ -147,18 +157,12 @@ html {
     line-height: 1.4;
 }
 
-.post-card a {
-    color: #3a3a80;
-    font-weight: bold;
-    text-decoration: none;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-
-.post-card a:hover {
-    color: #6a6ab0;
-    text-decoration: underline;
+/* Contenedor de tarjetas similar al de index.html */
+#theme-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
 }
 
 /* Footer */
@@ -169,8 +173,6 @@ footer {
     padding: 15px 0;
     font-size: 1rem;
 }
-
-
 
 /* Pantallas medianas (tablets, entre 768px y 1024px) */
 @media (max-width: 1024px) {

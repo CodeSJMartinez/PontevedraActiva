@@ -1,0 +1,53 @@
+/* Estilo del encabezado del menú */
+#menu2 {
+    background-color: #070730; /* Fondo oscuro para contrastar con el texto */
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para más profundidad */
+}
+
+/* Estilo del título */
+#menu2 h1 {
+    color: #ffffff;
+    font-size: 1.5rem; /* Tamaño adecuado para la jerarquía visual */
+    margin-bottom: 10px;
+    font-weight: 200;
+    letter-spacing: 0.05em; /* Añade un poco de espaciado para mayor legibilidad */
+}
+
+/* Estilo de la navegación */
+#menu2 nav {
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+    gap: 30px; /* Espacio amplio entre enlaces */
+}
+
+/* Estilo de los enlaces */
+#menu2 nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamaño moderado para los enlaces */
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo hover para enlaces */
+#menu2 nav a:hover {
+    background-color: #4CAF50; /* Fondo de hover llamativo */
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    #menu2 nav {
+        flex-direction: column; /* Enlaces en columna en móviles */
+        gap: 15px;
+    }
+    
+    #menu2 h1 {
+        font-size: 2rem; /* Ajustar el tamaño del título en móviles */
+    }
+}
