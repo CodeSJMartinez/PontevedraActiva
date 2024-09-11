@@ -1,32 +1,39 @@
 {
     "posts": [
       {
-        "title": "Apertura de Cuenta con DNI",
+        "title": "Centros de Salud y Consultorios",
         "intro": "",
-        "category": "Finanzas",
-        "blog_code": "post1.md",
-        "img": "blog/img/post1.jpg"
+        "category": "",
+        "theme_code": "post1.md",
+        "img": "theme02/img/post1.jpg"
       },
       {
-        "title": "Apertura de Cuenta con NIE",
-        "intro": "", 
-        "category": "Finanzas",
-        "blog_code": "post2.md",
-        "img": "blog/img/post2.jpg"
+        "title": "Hospitales Públicos y Privados",
+        "intro": "",
+        "category": "",
+        "theme_code": "post2.md",
+        "img": "theme02/img/post2.jpg"
       },
       {
-        "title": "Apertura de Cuenta con Pasaporte",
+        "title": "Tarjeta Sanitaria Europea",
         "intro": "",
-        "category": "Finanzas",
-        "blog_code": "post3.md",
-        "img": "blog/img/post3.jpg"
+        "category": "Salud",
+        "theme_code": "post3.md",
+        "img": "theme02/img/post3.jpg"
       },
       {
-        "title": "Transferencias y Envío de Dinero al Extranjero",
+        "title": "Farmacias y Servicios Médicos Urgentes",
         "intro": "",
-        "category": "Finanzas",
-        "blog_code": "post4.md",
-        "img": "blog/img/post4.jpg"
+        "category": "Salud",
+        "theme_code": "post4.md",
+        "img": "theme02/img/post4.jpg"
+      },
+      {
+        "title": "Seguridad Social",
+        "intro": "Trámite para acreditar la situación legal del extranjero en España.",
+        "category": "Trámites",
+        "theme_code": "post4.md",
+        "img": "theme02/img/post4.jpg"
       }
     ]
   }

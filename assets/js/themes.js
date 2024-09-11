@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     
         const postLink = document.createElement('a');
         postLink.textContent = "Ver Más >";
-        postLink.href = `theme-post.html?file=${theme}/${postJson.blog_code}`;
+        postLink.href = `theme-post.html?file=${theme}/${postJson.theme_code}`;
     
         //postElement.appendChild(imgElement);
         postElement.appendChild(postTitle);

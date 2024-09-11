@@ -1,0 +1,33 @@
+{
+    "posts": [
+      {
+        "title": "Apertura de Cuenta con DNI",
+        "intro": "",
+        "category": "Finanzas",
+        "theme_code": "post1.md",
+        "img": "theme03/img/post1.jpg"
+      },
+      {
+        "title": "Apertura de Cuenta con NIE",
+        "intro": "", 
+        "category": "Finanzas",
+        "theme_code": "post2.md",
+        "img": "theme03/img/post2.jpg"
+      },
+      {
+        "title": "Apertura de Cuenta con Pasaporte",
+        "intro": "",
+        "category": "Finanzas",
+        "theme_code": "post3.md",
+        "img": "theme03/img/post3.jpg"
+      },
+      {
+        "title": "Transferencias y Envío de Dinero al Extranjero",
+        "intro": "",
+        "category": "Finanzas",
+        "theme_code": "post4.md",
+        "img": "theme03/img/post4.jpg"
+      }
+    ]
+  }
+  

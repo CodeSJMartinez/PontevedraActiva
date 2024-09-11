@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             if (!responseJson.ok) throw new Error('Error al cargar los datos del tema');
 
             const postsData = await responseJson.json();
-            const postDetails = postsData.posts.find(post => post.blog_code === postCode);
+            const postDetails = postsData.posts.find(post => post.theme_code === postCode);
 
             if (postDetails) {
                 document.getElementById('post-title').textContent = postDetails.title;

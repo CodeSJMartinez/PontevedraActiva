@@ -1,14 +1,14 @@
 {
     "themes": [
-        { "id": 1, "name": "Documentación y Trámites" },
-        { "id": 2, "name": "Servicios Financieros y Bancarios" },
-        { "id": 3, "name": "Transporte y Movilidad" },
-        { "id": 4, "name": "Empleo y Oportunidades Laborales" },
-        { "id": 5, "name": "Ayudas Sociales y Comunitarias" },
-        { "id": 6, "name": "Educación y Formación" },
-        { "id": 7, "name": "Vivienda y Alojamiento" },
-        { "id": 8, "name": "Licencias y Vehículos" },
-        { "id": 9, "name": "Ocio y Recreación" },
-        { "id": 10, "name": "Salud y Servicios Médicos" }
+        { "id": 1, "name": "1. Documentación y Trámites", "category": "Trámites" },
+        { "id": 2, "name": "2. Salud y Servicios Médicos", "category": "Salud" },
+        { "id": 3, "name": "3. Servicios Financieros y Bancarios", "category": "Bancos" },
+        { "id": 4, "name": "4. Transporte y Movilidad", "category": "Transporte" },
+        { "id": 5, "name": "5. Empleo y Oportunidades Laborales", "category": "Empleo" },
+        { "id": 6, "name": "6. Ayudas Sociales y Comunitarias", "category": "Ayudas" },
+        { "id": 7, "name": "7. Educación y Formación", "category": "Educación" },
+        { "id": 8, "name": "8. Vivienda y Alojamiento", "category": "Vivienda" },
+        { "id": 9, "name": "9. Licencias y Vehículos", "category": "Vehículo" },
+        { "id": 10, "name": "10. Ocio y Recreación", "category": "Ocio" }
     ]
 }
