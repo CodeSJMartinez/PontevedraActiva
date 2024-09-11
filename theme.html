@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Empleo y Oportunidades Laborales">
-    <title>Tema 05 - Empleo y Oportunidades Laborales</title>
+    <meta name="description" content="Página temática dinámica">
+    <title>Tema Seleccionado - Pontevedra Activa</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/menu2.css">    
 </head>
 <body>
     <header id="menu2">
-        <h1>5. Empleo y Oportunidades Laborales</h1>
+        <h1 id="theme-title">Cargando tema...</h1>
         <nav>
-            <a href="theme04.html">Anterior</a> | <a href="theme06.html">Siguiente</a>
+            <a href="index.html">&lt; Volver a la Guía</a>
         </nav>
     </header>
 
@@ -21,8 +21,12 @@
             <!-- Aquí se cargarán dinámicamente los posts desde el JSON -->
         </section>
     </main>
-    <script src="assets/js/header.js"></script> <!-- Para insertar el encabezado y el menú -->
+
+    <!-- Cargar scripts comunes -->
+    <script src="assets/js/header.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="assets/js/themes.js"></script>
+    <!-- Script para cargar el tema y posts dinámicamente -->
+    <script src="assets/js/theme-generar.js"></script>
+     
 </body>
 </html>

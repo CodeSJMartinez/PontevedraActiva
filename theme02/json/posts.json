@@ -29,11 +29,11 @@
         "img": "theme02/img/post4.jpg"
       },
       {
-        "title": "Seguridad Social",
-        "intro": "Trámite para acreditar la situación legal del extranjero en España.",
-        "category": "Trámites",
-        "theme_code": "post4.md",
-        "img": "theme02/img/post4.jpg"
+        "title": "Citas Seguridad Social",
+        "intro": "",
+        "category": "Salud",
+        "theme_code": "post5.md",
+        "img": "theme02/img/post5.jpg"
       }
     ]
   }
