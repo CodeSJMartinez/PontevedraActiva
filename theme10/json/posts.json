@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "title": "Actividades al Aire Libre (parques, senderismo, deportes)",
+        "intro": "",
+        "theme_code": "post1.md",
+        "img": "theme10/img/post1.jpg"
+      },
+      {
+        "title": "Restaurantes y Bares",
+        "intro": "",
+        "theme_code": "post2.md",
+        "img": "theme10/img/post2.jpg"
+      },
+      {
+        "title": "Hoteles y Alojamiento Turístico",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme10/img/post3.jpg"
+      },
+      {
+        "title": "Eventos Culturales y Fiestas Locales",
+        "intro": "",
+        "theme_code": "post4.md",
+        "img": "theme10/img/post4.jpg"
+      }   
+    ]
+  }
+  

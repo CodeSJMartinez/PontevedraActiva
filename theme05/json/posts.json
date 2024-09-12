@@ -3,30 +3,26 @@
       {
         "title": "Acceso a ofertas de empleo",
         "intro": "",
-        "category": "Empleo",
         "theme_code": "post1.md",
-        "img": "blog/img/post1.jpg"
+        "img": "theme05/img/post1.jpg"
       },
       {
         "title": "Asesoramiento laboral",
         "intro": "", 
-        "category": "Empleo",
         "theme_code": "post2.md",
-        "img": "blog/img/post2.jpg"
+        "img": "theme05/img/post2.jpg"
       },
       {
         "title": "Búsqueda activa de empleo (con o sin papeles)",
         "intro": "",
-        "category": "Empleo",
         "theme_code": "post3.md",
-        "img": "blog/img/post3.jpg"
+        "img": "theme05/img/post3.jpg"
       },
       {
         "title": "Formación para el empleo (cursos gratuitos o de pago)",
         "intro": "",
-        "category": "Empleo",
         "theme_code": "post4.md",
-        "img": "blog/img/post4.jpg"
+        "img": "theme05/img/post4.jpg"
       }
     ]
   }

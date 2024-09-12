@@ -17,21 +17,18 @@
       {
         "title": "Tarjeta Sanitaria Europea",
         "intro": "",
-        "category": "Salud",
         "theme_code": "post3.md",
         "img": "theme02/img/post3.jpg"
       },
       {
         "title": "Farmacias y Servicios Médicos Urgentes",
         "intro": "",
-        "category": "Salud",
         "theme_code": "post4.md",
         "img": "theme02/img/post4.jpg"
       },
       {
         "title": "Citas Seguridad Social",
         "intro": "",
-        "category": "Salud",
         "theme_code": "post5.md",
         "img": "theme02/img/post5.jpg"
       }

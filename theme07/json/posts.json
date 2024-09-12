@@ -1,0 +1,41 @@
+{
+    "posts": [
+      {
+        "title": "Colegios (Primaria)",
+        "intro": "",
+        "theme_code": "post1.md",
+        "img": "theme07/img/post1.jpg"
+      },
+      {
+        "title": "Colegios (Secundaria)",
+        "intro": "",
+        "theme_code": "post2.md",
+        "img": "theme07/img/post2.jpg"
+      },
+      {
+        "title": "Universidades",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme07/img/post3.jpg"
+      },
+      {
+        "title": "Formación Profesional (FP)",
+        "intro": "",
+        "theme_code": "post4.md",
+        "img": "theme07/img/post4.jpg"
+      },
+      {
+        "title": "Cursos Gratuitos (presenciales)",
+        "intro": "",
+        "theme_code": "post5.md",
+        "img": "theme07/img/post5.jpg"
+      }, 
+      {
+        "title": "Cursos Gratuitos (online)",
+        "intro": "",
+        "theme_code": "post6.md",
+        "img": "theme07/img/post6.jpg"
+      }   
+    ]
+  }
+  

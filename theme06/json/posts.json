@@ -1,0 +1,22 @@
+{
+    "posts": [
+      {
+        "title": "Centros de Ayuda Comunitaria",
+        "intro": "",
+        "theme_code": "post1.md",
+        "img": "theme06/img/post1.jpg"
+      },
+      {
+        "title": "Iglesias y Organizaciones Religiosas",
+        "intro": "",
+        "theme_code": "post2.md",
+        "img": "theme06/img/post1.jpg"
+      },
+      {
+        "title": "Programas de Asistencia Pública",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme06/img/post1.jpg"
+      }
+    ]
+}  

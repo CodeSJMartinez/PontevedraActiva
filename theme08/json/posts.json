@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "title": "Búsqueda de Alquileres Online",
+        "intro": "",
+        "theme_code": "post1.md",
+        "img": "theme08/img/post1.jpg"
+      },
+      {
+        "title": "Pisos compartidos",
+        "intro": "",
+        "theme_code": "post2.md",
+        "img": "theme08/img/post2.jpg"
+      },
+      {
+        "title": "Información sobre Alojamiento Temporal (albergues)",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme08/img/post3.jpg"
+      },
+      {
+        "title": "Asesoramiento sobre Contratos de Alquiler",
+        "intro": "",
+        "theme_code": "post4.md",
+        "img": "theme08/img/post4.jpg"
+      }   
+    ]
+  }
+  

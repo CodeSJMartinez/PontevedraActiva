@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "title": "Obtención de la Licencia de Conducir",
+        "intro": "",
+        "theme_code": "post1.md",
+        "img": "theme09/img/post1.jpg"
+      },
+      {
+        "title": "Renovación de Licencias",
+        "intro": "",
+        "theme_code": "post2.md",
+        "img": "theme09/img/post2.jpg"
+      },
+      {
+        "title": "Compra de Coches Usados (plataformas online, concesionarios)",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme09/img/post3.jpg"
+      },
+      {
+        "title": "Inspección Técnica de Vehículos (ITV)",
+        "intro": "",
+        "theme_code": "post4.md",
+        "img": "theme09/img/post4.jpg"
+      }   
+    ]
+  }
+  
