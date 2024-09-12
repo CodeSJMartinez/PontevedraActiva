@@ -1,69 +1,68 @@
-#  Estilos Flexbox para agrupar tarjetas //
 
-Para agrupar las tarjetas de tres en tres en pantallas de escritorio, dos en pantallas más pequeñas y una sola tarjeta en dispositivos móviles, podemos utilizar **CSS Flexbox** y **media queries** para adaptar el diseño a diferentes tamaños de pantalla. Vamos a hacer los ajustes necesarios en el archivo `styles.css`.
+# La importancia de crear un presupuesto familiar al llegar a Pontevedra: Una guía para adaptarse al ritmo de la ciudad
 
-## Paso 1: Estilos Flexbox para agrupar tarjetas
+Cuando llegamos a una nueva ciudad como Pontevedra, desde cualquier país, especialmente de América del Sur, las diferencias en el costo de vida y las condiciones laborales pueden ser abrumadoras. Es habitual que al llegar, muchos tengamos que vivir con un familiar para empadronarnos, ya que alquilar una vivienda propia no siempre es una opción inmediata. Esta situación, que puede durar varios meses, requiere una planificación financiera adecuada para no solo sobrevivir, sino también prosperar mientras regularizamos nuestra situación legal o encontramos trabajo.
 
-Modificaremos los estilos del contenedor que contiene las tarjetas para que se ajuste a un layout de columnas que varíe según el tamaño de la pantalla.
+Aquí te ofrecemos una guía para **organizar tus finanzas**, adaptarte al ritmo de la ciudad y, poco a poco, lograr independencia económica.
 
-### Actualización en `styles.css`:
+---
 
-```css
-/* Estilos para el contenedor de las tarjetas */
-#blog-posts {
-    display: flex;
-    flex-wrap: wrap; /* Para que las tarjetas se acomoden en líneas si no caben */
-    justify-content: space-between;
-}
+## **1. Entender tu situación financiera actual**
 
-/* Estilos para las tarjetas de post */
-.post-card {
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    width: 100%;
-    max-width: 300px; /* Tamaño máximo de la tarjeta */
-    flex: 1 1 calc(33.333% - 40px); /* 3 tarjetas por fila para pantallas grandes */
-    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
-}
+Lo primero que debes hacer es analizar tu situación financiera desde el momento en que llegas. Para empezar, responde a estas preguntas:
 
-/* Media queries para pantallas más pequeñas */
-@media (max-width: 1024px) {
-    .post-card {
-        flex: 1 1 calc(50% - 40px); /* 2 tarjetas por fila para pantallas medianas */
-    }
-}
+- ¿Cuánto dinero tienes disponible actualmente?
+- ¿Tienes ingresos regulares, aunque sean temporales?
+- ¿Cuáles son los gastos más urgentes (alimentos, transporte, etc.)?
+- ¿Tienes algún ahorro o plan de ingresos futuros?
 
-@media (max-width: 768px) {
-    .post-card {
-        flex: 1 1 100%; /* 1 tarjeta por fila para pantallas pequeñas o móviles */
-    }
-}
-```
+Este paso es fundamental para evitar sorpresas y comenzar a gestionar tus recursos con claridad.
 
-## Explicación de los estilos:
+## **2. Crear un presupuesto básico**
 
-1. **Flexbox en el contenedor de las tarjetas (`#blog-posts`)**: Usamos `flex-wrap: wrap` para que las tarjetas se ajusten en filas. La propiedad `justify-content: space-between` asegura que haya espacio uniforme entre las tarjetas.
+Un presupuesto te ayudará a saber cómo distribuir tus recursos limitados. Aquí tienes un esquema sencillo de cómo podrías organizarlo:
 
-2. **Tarjetas (`.post-card`)**:
-    - **Pantallas grandes**: Para pantallas de más de 1024px (escritorio estándar), usamos `flex: 1 1 calc(33.333% - 40px)` para que tres tarjetas quepan por fila. El cálculo asegura que cada tarjeta ocupe un tercio del espacio, restando el margen entre ellas.
-    - **Pantallas medianas**: Entre 768px y 1024px (tabletas o pantallas más pequeñas), ajustamos a `flex: 1 1 calc(50% - 40px)` para mostrar dos tarjetas por fila.
-    - **Pantallas pequeñas (móviles)**: Para pantallas menores de 768px, las tarjetas ocuparán el 100% del ancho, con `flex: 1 1 100%`, mostrando una sola tarjeta por fila.
+**Ingresos:**
+- Dinero disponible al llegar.
+- Ayuda familiar o aportes si trabajas temporalmente.
 
-## Paso 2: Revisar el HTML y JavaScript
+**Gastos:**
+- **Alimentación:** Establece un monto semanal y ajusta tus compras para que se adapten a ese límite.
+- **Transporte:** Considera caminar o usar transporte público cuando sea posible.
+- **Gastos personales básicos:** Esto incluye productos de higiene personal y otros artículos esenciales.
+- **Ahorros de emergencia:** Aunque sea difícil, intenta ahorrar al menos una pequeña parte del dinero para emergencias imprevistas.
 
-El código HTML y JavaScript no necesita cambios, ya que el ajuste es únicamente de diseño. El contenedor `#blog-posts` y las tarjetas `.post-card` funcionarán automáticamente con los nuevos estilos CSS.
+**Ejemplo:** 
+Si llegas con 500 €, puedes destinar 200 € a alimentación, 50 € a transporte, 100 € a gastos personales y guardar el resto para emergencias.
 
-## Resultado esperado:
+## **3. Ajustarse al ritmo de la ciudad**
 
-- **En pantallas grandes (más de 1024px)**: Se mostrarán 3 tarjetas por fila.
-- **En pantallas medianas (entre 768px y 1024px)**: Se mostrarán 2 tarjetas por fila.
-- **En pantallas pequeñas (menos de 768px)**: Se mostrará una tarjeta por fila.
+Pontevedra tiene un ritmo de vida que puede resultar diferente al que estabas acostumbrado. Aquí algunos consejos para adaptarte:
 
-Esto permitirá una experiencia de usuario responsiva y optimizada para cualquier tipo de dispositivo.
+- **Camina y explora:** Pontevedra es conocida por ser una ciudad peatonal. Aprovecha esto para reducir los gastos en transporte.
+- **Mercados locales y supermercados:** Compra en mercados locales o supermercados asequibles. A menudo, los productos frescos tienen mejor precio en los mercados que en grandes superficies.
+- **Busca recursos gratuitos:** Bibliotecas, actividades culturales y parques son una excelente manera de disfrutar la ciudad sin gastar dinero.
 
-## Conclusión
+## **4. Planifica tu independencia**
 
-Con estos cambios, el diseño se adaptará automáticamente a diferentes tamaños de pantalla, proporcionando una mejor visualización en dispositivos de escritorio, tabletas y móviles.
+Vivir con familiares puede ser una situación temporal mientras regularizas tu estatus o encuentras un trabajo. Sin embargo, es importante comenzar a planificar tu independencia financiera y habitacional. Aquí algunos pasos para seguir:
+
+- **Empieza a investigar opciones de alquiler:** Aunque no puedas alquilar una vivienda de inmediato, es útil conocer los precios y las zonas donde te gustaría vivir. Esto te ayudará a tener un objetivo claro.
+- **Busca trabajos que no requieran papeles:** Mientras esperas obtener tu permiso de trabajo, existen trabajos temporales que podrían no requerir papeles, como limpieza o construcción. Esto puede ser una solución temporal para generar ingresos.
+- **Conversa con tu familiar:** Si vives con familiares, intenta acordar un pequeño aporte mensual o ayudar en tareas para mantener la convivencia sana.
+
+## **5. Tips para ahorrar mientras esperas**
+
+Mientras logras estabilizarte económicamente, aquí algunos tips para ahorrar dinero:
+
+- **Cocina en casa:** Comer fuera puede ser costoso. Preparar tus propias comidas te ayudará a reducir el gasto.
+- **Evita deudas innecesarias:** No te endeudes comprando cosas que no son absolutamente necesarias. La prioridad en esta etapa es estabilizar tus finanzas.
+- **Utiliza servicios públicos gratuitos:** La ciudad ofrece muchos servicios públicos, como asistencia en centros de salud, espacios de ocio en parques y eventos comunitarios. Aprovecha estas oportunidades para ahorrar en entretenimiento o actividades recreativas.
+
+---
+
+## **La clave está en la planificación**
+
+Adaptarse al ritmo de una nueva ciudad como Pontevedra requiere tiempo, paciencia y organización. Crear un presupuesto familiar es una herramienta esencial para gestionar tus finanzas mientras regularizas tu situación o encuentras un trabajo. Recuerda que aunque la situación pueda parecer desafiante al principio, con un buen plan y aprovechando los recursos locales, es posible comenzar a construir una vida estable y próspera.
+
+---
