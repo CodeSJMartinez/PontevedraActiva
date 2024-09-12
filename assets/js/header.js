@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="blog.html">Blog</a></li>
+                        <li><a href="site-map.html">Guía Rápida</a></li>
                     </ul>
                 </nav>
             </header>

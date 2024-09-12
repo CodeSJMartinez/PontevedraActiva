@@ -23,10 +23,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Mostrar el nombre del tema
         themeTitle.textContent = theme.name;
 
-        // Modificación sugerida para manejar correctamente los temas >= 10
-        const themeFolder = themeId < 10 ? `theme0${themeId}` : `theme${themeId}`;
-        const postsResponse = await fetch(`${themeFolder}/json/posts.json`);
-        
+        // Cargar los posts asociados al tema
+        const postsResponse = await fetch(`theme0${themeId}/json/posts.json`);
         if (!postsResponse.ok) throw new Error('No se pudo cargar el archivo JSON de posts');
         const postsData = await postsResponse.json();
 
@@ -40,7 +38,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             const postLink = document.createElement('a');
             postLink.textContent = "Ver Más >";
-            postLink.href = `theme-post.html?file=${themeFolder}/${post.theme_code}`;
+            postLink.href = `theme-post.html?file=theme0${themeId}/${post.theme_code}`;
 
             postElement.appendChild(postTitle);
             postElement.appendChild(postLink);

@@ -27,32 +27,32 @@
       {
         "title": "Seguridad Social",
         "intro": "Trámite para acreditar la situación legal del extranjero en España.",
-        "theme_code": "post4.md",
-        "img": "theme01/img/post4.jpg"
-      },
-      {
-        "title": "SEPE (Servicio Público de Empleo Estatal)",
-        "intro": "",
         "theme_code": "post5.md",
         "img": "theme01/img/post5.jpg"
       },
       {
-        "title": "Homologaciones de Títulos",
+        "title": "SEPE (Servicio Público de Empleo Estatal)",
         "intro": "",
         "theme_code": "post6.md",
         "img": "theme01/img/post6.jpg"
       },
       {
-        "title": "Certificados Oficiales",
+        "title": "Homologaciones de Títulos",
         "intro": "",
         "theme_code": "post7.md",
         "img": "theme01/img/post7.jpg"
       },
       {
-        "title": "Certificados de Profesionalidad",
+        "title": "Certificados Oficiales",
         "intro": "",
         "theme_code": "post8.md",
         "img": "theme01/img/post8.jpg"
+      },
+      {
+        "title": "Certificados de Profesionalidad",
+        "intro": "",
+        "theme_code": "post9.md",
+        "img": "theme01/img/post9.jpg"
       }
     ]
   }
