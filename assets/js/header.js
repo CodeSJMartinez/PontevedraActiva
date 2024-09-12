@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!noHeader) {
         const headerTemplate = `
             <header>
-                <h1>Pontevedra Activa</h1>
+                <h1>SL Pontevedra Activa</h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
