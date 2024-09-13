@@ -33,5 +33,5 @@ El Padrón Municipal de Habitantes es un registro administrativo que certifica l
 - Ley 7/1985, de 2 de abril, reguladora del régimen local.
 - Real Decreto 1690/1986, de 11 de julio, sobre población y demarcación local.
 
-Esta guía simplifica los pasos para dar de alta a una persona en el Padrón de Habitantes del municipio.
+
 
